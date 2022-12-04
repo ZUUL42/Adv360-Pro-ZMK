@@ -1,20 +1,31 @@
 # ADV360-PRO-ZMK
 
 ## Edit keymap
-Edit config/adv360.keymap
-Format: https://zmk.dev/docs/codes
+Edit config/adv360.keymap\
+ZMK Tokens: https://zmk.dev/docs/codes
 
 ### Layer colors
 The layer LED will change color depending on which layer you're on:
 - 0 off
 - 1 white
 - 2 blue
-- 3 green - I thought it was good to get the layer with he bootloader key off the green layer
-- 4 red - Moved the Mod layer to here with a dummy layer in place of layer 3
+- 3 green\
+  I thought it was good to get the layer with he bootloader key off the green layer
+- 4 red  
+  Moved the Mod layer to here with a dummy layer in place of layer 3
 - 5 purple
 - 6 cyan
 - 7 yellow
-- 8+ off? - Once I got to layer 8 & 9, it appeared the LED no longer lit up for layer changes.
+- 8+ off?  
+  Once I got to layer 8 & 9, it appeared the LED no longer lit up for layer changes.
+
+### GUI Editing
+Not recommended due to the formatting it outputs (2022/12/03)\
+Kinesis mentions: https://kinesiscorporation.github.io/Adv360-Pro-GUI  
+But it appears to be broken. It will only display the default configuration.\
+For editing via GUI, you can use: https://nickcoutsos.github.io/keymap-editor  
+However, the autoformatting will slaughter your keymap file for later manual editing.  
+nickcoutsos is still good for viewing/reference though.
 
 ## To build Firmware in GitHub Actions
 
@@ -60,9 +71,3 @@ Follow the programming instruction on page 8 of the [Quick Start Guide](https://
 Further support resources can be found on Kinesis.com
 https://kinesis-ergo.com/support/kb360pro/#firmware-updates
 https://kinesis-ergo.com/support/kb360pro/#manuals
-
-## GUI Editing
-Not recommended due to the formatting it outputs (2022/12/03)
-For editing via GUI, use: https://nickcoutsos.github.io/keymap-editor/
-  *note Kinesis' is broken: https://kinesiscorporation.github.io/Adv360-Pro-GUI/
-nickcoutsos is still good for viewing/reference though.
