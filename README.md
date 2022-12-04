@@ -1,19 +1,20 @@
 # ADV360-PRO-ZMK
 
 ## Edit keymap
-edit config/adv360.keymap
-# Layer colors
-The layer LED will change color depending on which layer you're on:
+Edit config/adv360.keymap
+Format: https://zmk.dev/docs/codes
 
-0 off
-1 white
-2 blue
-3 green   I thought it was good to get the layer with he bootloader key off the green layer
-4 red     Moved the Mod layer to here with a dummy layer in place of layer 3
-5 purple
-6 cyan
-7 yellow
-8+ off
+### Layer colors
+The layer LED will change color depending on which layer you're on:
+- 0 off
+- 1 white
+- 2 blue
+- 3 green - I thought it was good to get the layer with he bootloader key off the green layer
+- 4 red - Moved the Mod layer to here with a dummy layer in place of layer 3
+- 5 purple
+- 6 cyan
+- 7 yellow
+- 8+ off? - Once I got to layer 8 & 9, it appeared the LED no longer lit up for layer changes.
 
 ## To build Firmware in GitHub Actions
 
