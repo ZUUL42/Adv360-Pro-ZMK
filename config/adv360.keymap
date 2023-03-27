@@ -37,7 +37,7 @@
         compatible = "zmk,keymap";
 
 
-        default_layer {
+        layer_0_base {
             bindings = <
  &kp EQUAL     &kp N1        &kp N2    &kp N3     &kp N4  &kp N5             &kp ESC                                                                 &mo 4  &kp N6    &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &kp TAB      &kp Q         &kp W     &kp E      &kp R   &kp T               &none                                                                &tog 3   &kp Y     &kp U      &kp I     &kp O     &kp P   &kp BSLH
@@ -47,7 +47,7 @@
             >;
         };
 
-        layer_white {
+        layer_1_white {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -57,7 +57,7 @@
             >;
         };
 
-        layer_fn_blue {
+        layer_2_fn_blue {
             bindings = <
  &kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                     &trans                                                  &kp PSCRN  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
   &trans  &trans  &trans  &trans  &trans  &trans            &kp PAUSE_BREAK                                                   &kp SLCK  &trans  &trans  &trans  &trans   &trans   &trans
@@ -67,7 +67,7 @@
             >;
         };
 
-        layer_keypad_green {
+        layer_3_keypad_green {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
@@ -77,7 +77,7 @@
             >;
         };
 
-        layer_mod_red {
+        layer_4_mod_red {
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                              &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
   &none         &none         &none         &none         &none         &none                       &bootloader                                                                         &bootloader         &none         &none         &none         &none         &none   &none
@@ -87,7 +87,7 @@
             >;
         };
 
-        layer_purple {
+        layer_5_purple {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -97,7 +97,7 @@
             >;
         };
 
-        layer_cyan {
+        layer_6_cyan {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -107,7 +107,7 @@
             >;
         };
 
-        layer_yellow {
+        layer_7_yellow {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
